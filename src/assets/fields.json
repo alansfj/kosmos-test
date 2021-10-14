@@ -1,0 +1,37 @@
+{
+  "fields": [
+    {
+      "component": "text",
+      "label": "First Name",
+      "type": "text",
+      "id": 1
+    },
+    {
+      "component": "text",
+      "label": "Last Name",
+      "type": "text",
+      "id": 2
+    },
+    {
+      "component": "text",
+      "label": "Age",
+      "type": "number",
+      "id": 3
+    },
+    {
+      "component": "text",
+      "label": "Gender",
+      "type": "radio",
+      "name": "Gender",
+      "values": ["Male", "Female"],
+      "id": 4
+    },
+    {
+      "component": "text",
+      "label": "Marital Status",
+      "type": "select",
+      "options": ["single", "married", "separated", "divorced", "widower"],
+      "id": 5
+    }
+  ]
+}

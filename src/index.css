@@ -12,4 +12,15 @@ html {
 
 body {
   margin: 0;
+  height: 100vh;
+  background-color: khaki;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
 }
