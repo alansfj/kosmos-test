@@ -13,6 +13,7 @@ const CreatedForm = ({ formArray, setFormArray }) => {
 
   const handleSubmit = e => {
     e.preventDefault();
+    alert("Form submited successfuly");
   };
 
   return (
