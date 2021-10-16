@@ -3,3 +3,5 @@ La rama master fue mi intento del ejercicio en las 3 horas dadas, a mitad del ti
 Edit: se agregaron los estilos y se convirtieron los input a inputs controlados. Ejercicio completado en la rama 'exercise-done'.
 
 Demo: https://naughty-shannon-26cb1b.netlify.app/
+
+CodeSandbox: https://codesandbox.io/s/heuristic-bash-psxjp?file=/public/index.html
