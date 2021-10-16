@@ -4,4 +4,4 @@ Edit: se agregaron los estilos y se convirtieron los input a inputs controlados.
 
 Demo: https://naughty-shannon-26cb1b.netlify.app/
 
-CodeSandbox: https://codesandbox.io/s/heuristic-bash-psxjp?file=/public/index.html
+CodeSandbox: https://codesandbox.io/s/heuristic-bash-psxjp?file=/public/index.html  (de la rama 'exercise-done')
