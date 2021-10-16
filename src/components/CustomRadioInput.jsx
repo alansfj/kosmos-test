@@ -1,10 +1,11 @@
 import React from "react";
+import "../Sass/CustomRadioInput.styles.scss";
 
 const CustomRadioInput = ({ element }) => {
   const { label, values, type, name } = element;
 
   return (
-    <div>
+    <div className="radio-input-container">
       <p>{label}</p>
       {values.map(value => (
         <label key={value}>

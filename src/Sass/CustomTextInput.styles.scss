@@ -1,0 +1,9 @@
+.text-input-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 7rem;
+
+  & > label {
+    font-size: 1.2rem;
+  }
+}

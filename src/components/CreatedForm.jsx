@@ -4,6 +4,7 @@ import CreatedFormRow from "./CreatedFormRow";
 import CustomRadioInput from "./CustomRadioInput";
 import CustomSelectInput from "./CustomSelectInput";
 import CustomTextInput from "./CustomTextInput";
+import "../Sass/CreatedForm.styles.scss";
 
 const CreatedForm = ({ formArray, setFormArray }) => {
   const filteredArray = json.fields.filter(
@@ -15,7 +16,8 @@ const CreatedForm = ({ formArray, setFormArray }) => {
   };
 
   return (
-    <div>
+    <div className="form-container">
+      <p>Form</p>
       <form onSubmit={handleSubmit}>
         {filteredArray.map(element => {
           if (element.type === "radio") {

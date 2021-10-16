@@ -14,24 +14,18 @@
     },
     {
       "component": "text",
-      "label": "Age",
-      "type": "number",
-      "id": 3
-    },
-    {
-      "component": "text",
       "label": "Gender",
       "type": "radio",
       "name": "Gender",
       "values": ["Male", "Female"],
-      "id": 4
+      "id": 3
     },
     {
       "component": "text",
       "label": "Marital Status",
       "type": "select",
       "options": ["single", "married", "separated", "divorced", "widower"],
-      "id": 5
+      "id": 4
     }
   ]
 }

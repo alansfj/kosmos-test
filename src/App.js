@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import InputOptionGroup from "./components/InputOptionGroup";
 import json from "./assets/fields.json";
 import CreatedForm from "./components/CreatedForm";
+import "./Sass/App.styles.scss";
 
 function App() {
   const [optionsSelected, setOptionsSelected] = useState({});
@@ -18,12 +19,14 @@ function App() {
 
   return (
     <div className="App">
-      <InputOptionGroup
-        setOptionsSelected={setOptionsSelected}
-        optionsSelected={optionsSelected}
-        setFormArray={setFormArray}
-      />
-      <CreatedForm formArray={formArray} setFormArray={setFormArray} />
+      <div className="container">
+        <InputOptionGroup
+          setOptionsSelected={setOptionsSelected}
+          optionsSelected={optionsSelected}
+          setFormArray={setFormArray}
+        />
+        <CreatedForm formArray={formArray} setFormArray={setFormArray} />
+      </div>
     </div>
   );
 }

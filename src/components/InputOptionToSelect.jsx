@@ -18,7 +18,7 @@ const InputOptionToSelect = ({
   return (
     <div
       onClick={handleClick}
-      className={`${optionsSelected[label] ? "option-selected" : ""}`}
+      className={`option ${optionsSelected[label] ? "option-selected" : ""}`}
     >
       <span>{label}</span>
     </div>

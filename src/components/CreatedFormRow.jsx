@@ -9,7 +9,9 @@ const CreatedFormRow = ({ children, setFormArray, formArray, label }) => {
   return (
     <div className="form-row-container">
       {children}
-      <button onClick={handleClick}>X</button>
+      <div className="remove-btn" onClick={handleClick}>
+        X
+      </div>
     </div>
   );
 };

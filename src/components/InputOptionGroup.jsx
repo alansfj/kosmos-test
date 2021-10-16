@@ -1,6 +1,7 @@
 import React from "react";
 import json from "../assets/fields.json";
 import InputOptionToSelect from "./InputOptionToSelect";
+import "../Sass/InputOptionGroup.scss";
 
 const InputOptionGroup = ({
   setOptionsSelected,
@@ -18,7 +19,7 @@ const InputOptionGroup = ({
   };
 
   return (
-    <div>
+    <div className="option-group-container">
       <p>Select options to add to form</p>
       {json.fields.map(field => (
         <InputOptionToSelect

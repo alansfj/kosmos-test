@@ -1,0 +1,31 @@
+.App {
+  height: 100vh;
+  display: flex;
+
+  & > .container {
+    margin: auto;
+    padding: 2rem 1rem;
+    width: 50%;
+    min-height: 50%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .App {
+    & > .container {
+      width: 75%;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .App {
+    & > .container {
+      flex-direction: column;
+    }
+  }
+}
